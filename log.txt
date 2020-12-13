@@ -1,0 +1,1559 @@
+13/12/2020 14:38:52 Открытие серверного сокета...
+13/12/2020 14:39:02 Клиент подключается к серверу!
+13/12/2020 14:39:16 Данные полученные с клиента: enter
+13/12/2020 14:39:16 Попытка входа в аккаунт
+13/12/2020 14:39:16 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 14:39:17 Вход выполнен успешно!
+13/12/2020 14:39:17 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 14:39:17 Клиент авторизировался как компания
+13/12/2020 14:39:17 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 14:39:17 Отправка данных о компании на клиент!
+13/12/2020 14:39:17 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 14:39:17 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:39:17 Данные полученные с базы данных: Мебель
+13/12/2020 14:39:17 Данные полученные с базы данных: Одежда
+13/12/2020 14:39:17 Данные полученные с базы данных: техника
+13/12/2020 14:39:17 Данные полученные с клиента: getRequestTableData
+13/12/2020 14:39:17 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 14:39:17 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 14:39:17 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 14:39:17 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 14:39:17 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 14:39:20 Данные полученные с клиента: exitLogistAccount
+13/12/2020 14:39:20 Выход из аккаунта: vadim
+13/12/2020 14:39:27 Данные полученные с клиента: enter
+13/12/2020 14:39:27 Попытка входа в аккаунт
+13/12/2020 14:39:27 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 14:39:27 Вход выполнен успешно!
+13/12/2020 14:39:27 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 14:39:27 Клиент авторизировался как администратор
+13/12/2020 14:39:27 Данные полученные с клиента: getUsers
+13/12/2020 14:39:27 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:39:27 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 14:39:27 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 14:39:27 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 14:39:27 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 14:39:27 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 14:39:27 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 14:39:27 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 14:39:27 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:39:27 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с клиента: getWarehouses
+13/12/2020 14:39:27 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:39:27 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=389, capacity=1000}
+13/12/2020 14:39:27 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 14:39:27 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 14:39:27 Данные полученные с клиента: getRequestTableData
+13/12/2020 14:39:27 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 14:39:27 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 14:39:38 Данные полученные с клиента: getWarehouses
+13/12/2020 14:39:38 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:39:38 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=389, capacity=1000}
+13/12/2020 14:39:38 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 14:39:38 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 14:40:00 Данные полученные с клиента: exitLogistAccount
+13/12/2020 14:40:00 Выход из аккаунта: admin
+13/12/2020 14:40:02 Клиент отключен.
+13/12/2020 14:46:48 Открытие серверного сокета...
+13/12/2020 14:47:10 Открытие серверного сокета...
+13/12/2020 14:47:22 Клиент подключается к серверу!
+13/12/2020 14:47:27 Данные полученные с клиента: enter
+13/12/2020 14:47:27 Попытка входа в аккаунт
+13/12/2020 14:47:27 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 14:47:27 Вход выполнен успешно!
+13/12/2020 14:47:27 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 14:47:27 Клиент авторизировался как компания
+13/12/2020 14:47:27 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 14:47:27 Отправка данных о компании на клиент!
+13/12/2020 14:47:27 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 14:47:27 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:47:27 Данные полученные с базы данных: Мебель
+13/12/2020 14:47:27 Данные полученные с базы данных: Одежда
+13/12/2020 14:47:27 Данные полученные с базы данных: техника
+13/12/2020 14:47:27 Данные полученные с клиента: getRequestTableData
+13/12/2020 14:47:27 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 14:47:27 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 14:47:27 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 14:47:27 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 14:47:27 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 14:55:07 Данные полученные с клиента: exitLogistAccount
+13/12/2020 14:55:07 Выход из аккаунта: vadim
+13/12/2020 14:55:08 Клиент отключен.
+13/12/2020 14:55:34 Открытие серверного сокета...
+13/12/2020 14:55:41 Клиент подключается к серверу!
+13/12/2020 14:55:55 Данные полученные с клиента: enter
+13/12/2020 14:55:55 Попытка входа в аккаунт
+13/12/2020 14:55:55 Данные полученные с клиента: Users{idUser=null, login='dqwdwq', password='dwqdw5dwq', role='null'}
+13/12/2020 14:55:56 Пользователь не зарегистрирован!
+13/12/2020 14:56:02 Данные полученные с клиента: enter
+13/12/2020 14:56:02 Попытка входа в аккаунт
+13/12/2020 14:56:02 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 14:56:02 Вход выполнен успешно!
+13/12/2020 14:56:02 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 14:56:02 Клиент авторизировался как администратор
+13/12/2020 14:56:02 Данные полученные с клиента: getUsers
+13/12/2020 14:56:02 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:56:02 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 14:56:02 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 14:56:02 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 14:56:02 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 14:56:02 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 14:56:02 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 14:56:02 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 14:56:02 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:56:02 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с клиента: getWarehouses
+13/12/2020 14:56:02 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 14:56:02 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=389, capacity=1000}
+13/12/2020 14:56:02 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 14:56:02 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 14:56:02 Данные полученные с клиента: getRequestTableData
+13/12/2020 14:56:02 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 14:56:02 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 14:56:09 Клиент отключен.
+13/12/2020 15:40:50 Открытие серверного сокета...
+13/12/2020 15:40:58 Клиент подключается к серверу!
+13/12/2020 15:41:05 Данные полученные с клиента: enter
+13/12/2020 15:41:05 Попытка входа в аккаунт
+13/12/2020 15:41:05 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 15:41:06 Вход выполнен успешно!
+13/12/2020 15:41:06 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:41:06 Клиент авторизировался как компания
+13/12/2020 15:41:06 Клиент отключен.
+13/12/2020 15:43:51 Клиент подключается к серверу!
+13/12/2020 15:43:57 Данные полученные с клиента: enter
+13/12/2020 15:43:57 Попытка входа в аккаунт
+13/12/2020 15:43:57 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 15:43:57 Вход выполнен успешно!
+13/12/2020 15:43:57 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:43:57 Клиент авторизировался как компания
+13/12/2020 15:43:57 Клиент отключен.
+13/12/2020 15:44:31 Клиент подключается к серверу!
+13/12/2020 15:44:37 Данные полученные с клиента: enter
+13/12/2020 15:44:37 Попытка входа в аккаунт
+13/12/2020 15:44:37 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 15:44:37 Вход выполнен успешно!
+13/12/2020 15:44:37 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:44:37 Клиент авторизировался как компания
+13/12/2020 15:44:37 Клиент отключен.
+13/12/2020 15:45:24 Клиент подключается к серверу!
+13/12/2020 15:45:29 Данные полученные с клиента: enter
+13/12/2020 15:45:29 Попытка входа в аккаунт
+13/12/2020 15:45:29 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 15:45:29 Вход выполнен успешно!
+13/12/2020 15:45:29 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:45:29 Клиент авторизировался как компания
+13/12/2020 15:45:30 Клиент отключен.
+13/12/2020 15:45:58 Клиент подключается к серверу!
+13/12/2020 15:46:06 Данные полученные с клиента: enter
+13/12/2020 15:46:06 Попытка входа в аккаунт
+13/12/2020 15:46:06 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 15:46:06 Вход выполнен успешно!
+13/12/2020 15:46:06 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:46:06 Клиент авторизировался как компания
+13/12/2020 15:46:07 Клиент отключен.
+13/12/2020 15:46:53 Клиент подключается к серверу!
+13/12/2020 15:47:09 Данные полученные с клиента: enter
+13/12/2020 15:47:09 Попытка входа в аккаунт
+13/12/2020 15:47:09 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 15:47:10 Вход выполнен успешно!
+13/12/2020 15:47:10 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:47:10 Клиент авторизировался как компания
+13/12/2020 15:47:10 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 15:47:10 Отправка данных о компании на клиент!
+13/12/2020 15:47:10 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 15:47:10 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:47:10 Данные полученные с базы данных: Мебель
+13/12/2020 15:47:10 Данные полученные с базы данных: Одежда
+13/12/2020 15:47:10 Данные полученные с базы данных: техника
+13/12/2020 15:47:10 Данные полученные с клиента: getRequestTableData
+13/12/2020 15:47:10 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 15:47:10 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 15:47:10 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 15:47:10 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 15:47:10 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 15:56:29 Клиент отключен.
+13/12/2020 15:57:59 Открытие серверного сокета...
+13/12/2020 15:58:03 Клиент подключается к серверу!
+13/12/2020 15:58:14 Данные полученные с клиента: enter
+13/12/2020 15:58:14 Попытка входа в аккаунт
+13/12/2020 15:58:14 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 15:58:14 Вход выполнен успешно!
+13/12/2020 15:58:14 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 15:58:14 Клиент авторизировался как администратор
+13/12/2020 15:58:14 Данные полученные с клиента: getUsers
+13/12/2020 15:58:14 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:58:14 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 15:58:14 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 15:58:14 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 15:58:14 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 15:58:14 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 15:58:14 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 15:58:14 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 15:58:14 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:58:14 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 15:58:14 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 15:58:14 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:58:14 Данные полученные с клиента: getWarehouses
+13/12/2020 15:58:14 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:58:14 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=389, capacity=1000}
+13/12/2020 15:58:14 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 15:58:14 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 15:58:14 Данные полученные с клиента: getRequestTableData
+13/12/2020 15:58:14 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Одобрен'}
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 15:58:15 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 15:58:19 Клиент подключается к серверу!
+13/12/2020 15:58:25 Данные полученные с клиента: enter
+13/12/2020 15:58:25 Попытка входа в аккаунт
+13/12/2020 15:58:25 Данные полученные с клиента: Users{idUser=null, login='seryoga', password='1010aa', role='null'}
+13/12/2020 15:58:25 Вход выполнен успешно!
+13/12/2020 15:58:25 Данные полученные с клиента: Users{idUser=null, login='seryoga', password='1010aa', role='null'}
+13/12/2020 15:58:25 Клиент авторизировался как логист
+13/12/2020 15:58:26 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 15:58:26 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:58:26 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с клиента: getWarehouses
+13/12/2020 15:58:26 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:58:26 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=389, capacity=1000}
+13/12/2020 15:58:26 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 15:58:26 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 15:58:26 Данные полученные с клиента: getRequestTableData
+13/12/2020 15:58:26 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 15:58:26 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 15:58:30 Клиент подключается к серверу!
+13/12/2020 15:58:35 Данные полученные с клиента: enter
+13/12/2020 15:58:35 Попытка входа в аккаунт
+13/12/2020 15:58:35 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 15:58:35 Вход выполнен успешно!
+13/12/2020 15:58:35 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 15:58:35 Клиент авторизировался как компания
+13/12/2020 15:58:35 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 15:58:35 Отправка данных о компании на клиент!
+13/12/2020 15:58:35 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 15:58:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:58:35 Данные полученные с базы данных: Мебель
+13/12/2020 15:58:35 Данные полученные с базы данных: Одежда
+13/12/2020 15:58:35 Данные полученные с базы данных: техника
+13/12/2020 15:58:35 Данные полученные с клиента: getRequestTableData
+13/12/2020 15:58:35 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 15:58:35 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 15:58:35 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 15:58:35 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 15:58:35 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 15:58:49 Данные полученные с клиента: getWarehouses
+13/12/2020 15:58:49 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:58:49 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=389, capacity=1000}
+13/12/2020 15:58:49 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 15:58:49 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 15:59:01 Данные полученные с клиента: updateProductRequestTable
+13/12/2020 15:59:01 Считывание измененных дынных о компаниях с клиента!
+13/12/2020 15:59:03 Данные полученные с клиента: getWarehouses
+13/12/2020 15:59:03 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:59:03 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=389, capacity=1000}
+13/12/2020 15:59:03 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 15:59:03 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 15:59:03 Данные полученные с клиента: getRequestTableData
+13/12/2020 15:59:03 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 15:59:03 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 15:59:07 Данные полученные с клиента: getWarehouses
+13/12/2020 15:59:07 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:59:07 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=389, capacity=1000}
+13/12/2020 15:59:07 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 15:59:07 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 15:59:32 Данные полученные с клиента: addProductRequest
+13/12/2020 15:59:32 Добавление запроса компании в базу данных!
+13/12/2020 15:59:32 Данные полученные с клиента: ProductRequest{idRequest=null, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='null', status='В обработке'}
+13/12/2020 15:59:33 Данные полученные с клиента: getRequestTableData
+13/12/2020 15:59:33 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 15:59:33 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 15:59:33 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 15:59:33 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 15:59:33 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='В обработке'}
+13/12/2020 15:59:33 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='0.0', status='В обработке'}
+13/12/2020 15:59:44 Данные полученные с клиента: updateProductRequestTable
+13/12/2020 15:59:44 Считывание измененных дынных о компаниях с клиента!
+13/12/2020 15:59:46 Данные полученные с клиента: getWarehouses
+13/12/2020 15:59:46 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:59:46 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 15:59:46 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 15:59:46 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 15:59:46 Данные полученные с клиента: getRequestTableData
+13/12/2020 15:59:46 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Одобрен'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='Одобрен'}
+13/12/2020 15:59:46 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='0.0', status='В обработке'}
+13/12/2020 15:59:51 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 15:59:51 Отправка данных о компании на клиент!
+13/12/2020 15:59:51 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 15:59:51 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 15:59:51 Данные полученные с базы данных: Мебель
+13/12/2020 15:59:51 Данные полученные с базы данных: Одежда
+13/12/2020 15:59:51 Данные полученные с базы данных: техника
+13/12/2020 15:59:51 Данные полученные с клиента: getRequestTableData
+13/12/2020 15:59:51 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 15:59:51 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 15:59:51 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 15:59:51 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 15:59:51 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='Одобрен'}
+13/12/2020 15:59:51 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='0.0', status='В обработке'}
+13/12/2020 16:00:03 Данные полученные с клиента: getUsers
+13/12/2020 16:00:03 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:03 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:00:03 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:00:03 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:00:03 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:00:03 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:00:03 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:00:03 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:00:03 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:03 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:00:03 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:00:03 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:00:03 Данные полученные с клиента: getWarehouses
+13/12/2020 16:00:03 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:04 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:00:04 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:00:04 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 16:00:04 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:00:04 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Одобрен'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='0.0', status='Одобрен'}
+13/12/2020 16:00:04 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='0.0', status='В обработке'}
+13/12/2020 16:00:34 Данные полученные с клиента: updateProductRequestTable
+13/12/2020 16:00:34 Считывание измененных дынных о компаниях с клиента!
+13/12/2020 16:00:36 Данные полученные с клиента: getWarehouses
+13/12/2020 16:00:36 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:36 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:00:36 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:00:36 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=1011, capacity=10000}
+13/12/2020 16:00:36 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:00:36 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Одобрен'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:00:36 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:00:44 Данные полученные с клиента: updateProductRequestTable
+13/12/2020 16:00:44 Считывание измененных дынных о компаниях с клиента!
+13/12/2020 16:00:46 Данные полученные с клиента: getWarehouses
+13/12/2020 16:00:46 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:46 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:00:46 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:00:46 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:00:46 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:00:46 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:00:46 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:00:50 Данные полученные с клиента: getUsers
+13/12/2020 16:00:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:50 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:00:50 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:00:50 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:00:50 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:00:50 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:00:50 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:00:50 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:00:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:50 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с клиента: getWarehouses
+13/12/2020 16:00:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:50 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:00:50 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:00:50 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:00:50 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:00:50 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:00:50 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:00:52 Данные полученные с клиента: getWarehouses
+13/12/2020 16:00:52 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:00:52 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:00:52 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:00:52 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:01:13 Клиент отключен.
+13/12/2020 16:02:34 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:02:34 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:02:34 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:02:34 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:02:34 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:02:34 Данные полученные с клиента: getWarehouses
+13/12/2020 16:02:34 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:02:35 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:02:35 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:02:35 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:02:35 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:02:35 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:02:35 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:02:37 Клиент подключается к серверу!
+13/12/2020 16:02:42 Данные полученные с клиента: enter
+13/12/2020 16:02:42 Попытка входа в аккаунт
+13/12/2020 16:02:42 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 16:02:42 Вход выполнен успешно!
+13/12/2020 16:02:42 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:02:42 Клиент авторизировался как компания
+13/12/2020 16:02:42 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 16:02:42 Отправка данных о компании на клиент!
+13/12/2020 16:02:42 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:02:42 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:02:42 Данные полученные с базы данных: Мебель
+13/12/2020 16:02:42 Данные полученные с базы данных: Одежда
+13/12/2020 16:02:42 Данные полученные с базы данных: техника
+13/12/2020 16:02:42 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:02:42 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:02:43 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:02:43 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:02:43 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:02:43 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:02:43 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:02:50 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 16:02:50 Отправка данных о компании на клиент!
+13/12/2020 16:02:50 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:02:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:02:50 Данные полученные с базы данных: Мебель
+13/12/2020 16:02:50 Данные полученные с базы данных: Одежда
+13/12/2020 16:02:50 Данные полученные с базы данных: техника
+13/12/2020 16:02:50 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:02:50 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:02:50 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:02:50 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:02:50 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:02:50 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:02:50 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:02:55 Клиент отключен.
+13/12/2020 16:03:33 Клиент подключается к серверу!
+13/12/2020 16:03:38 Данные полученные с клиента: enter
+13/12/2020 16:03:38 Попытка входа в аккаунт
+13/12/2020 16:03:38 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 16:03:38 Вход выполнен успешно!
+13/12/2020 16:03:38 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:03:38 Клиент авторизировался как компания
+13/12/2020 16:03:38 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 16:03:38 Отправка данных о компании на клиент!
+13/12/2020 16:03:38 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:03:38 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:03:38 Данные полученные с базы данных: Мебель
+13/12/2020 16:03:38 Данные полученные с базы данных: Одежда
+13/12/2020 16:03:38 Данные полученные с базы данных: техника
+13/12/2020 16:03:38 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:03:38 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:03:38 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:03:38 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:03:38 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:03:38 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:03:38 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:03:42 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:03:42 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:03:42 Данные полученные с базы данных: Мебель
+13/12/2020 16:03:42 Данные полученные с базы данных: Одежда
+13/12/2020 16:03:42 Данные полученные с базы данных: техника
+13/12/2020 16:03:46 Клиент отключен.
+13/12/2020 16:05:15 Клиент подключается к серверу!
+13/12/2020 16:05:20 Данные полученные с клиента: enter
+13/12/2020 16:05:20 Попытка входа в аккаунт
+13/12/2020 16:05:20 Данные полученные с клиента: Users{idUser=null, login='vadim', password='12345d', role='null'}
+13/12/2020 16:05:20 Вход выполнен успешно!
+13/12/2020 16:05:20 Данные полученные с клиента: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:05:20 Клиент авторизировался как компания
+13/12/2020 16:05:20 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 16:05:20 Отправка данных о компании на клиент!
+13/12/2020 16:05:20 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:20 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:20 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:20 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:20 Данные полученные с базы данных: техника
+13/12/2020 16:05:20 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:05:20 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:05:20 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:05:20 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:05:20 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:05:20 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:05:20 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:05:22 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:22 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:22 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:22 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:22 Данные полученные с базы данных: техника
+13/12/2020 16:05:25 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 16:05:25 Отправка данных о компании на клиент!
+13/12/2020 16:05:25 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:25 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:25 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:25 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:25 Данные полученные с базы данных: техника
+13/12/2020 16:05:25 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:05:25 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:05:25 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:05:25 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:05:25 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:05:25 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:05:25 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:05:26 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:26 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:26 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:26 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:26 Данные полученные с базы данных: техника
+13/12/2020 16:05:28 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 16:05:28 Отправка данных о компании на клиент!
+13/12/2020 16:05:28 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:28 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:28 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:28 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:28 Данные полученные с базы данных: техника
+13/12/2020 16:05:28 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:05:28 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:05:28 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:05:28 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:05:28 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:05:28 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:05:28 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:05:28 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:28 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:28 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:28 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:28 Данные полученные с базы данных: техника
+13/12/2020 16:05:30 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 16:05:30 Отправка данных о компании на клиент!
+13/12/2020 16:05:30 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:30 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:30 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:30 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:30 Данные полученные с базы данных: техника
+13/12/2020 16:05:30 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:05:30 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:05:30 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:05:30 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:05:30 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:05:30 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:05:30 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:05:31 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:31 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:31 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:31 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:31 Данные полученные с базы данных: техника
+13/12/2020 16:05:39 Данные полученные с клиента: addWarehouse
+13/12/2020 16:05:39 Добавление склада!
+13/12/2020 16:05:39 Данные полученные с клиента: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:05:40 Данные полученные с клиента: getWarehouses
+13/12/2020 16:05:40 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:40 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:05:40 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:05:40 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:05:40 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:05:42 Данные полученные с клиента: checkCompanyInfo
+13/12/2020 16:05:42 Отправка данных о компании на клиент!
+13/12/2020 16:05:42 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:42 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:42 Данные полученные с базы данных: qwddqwd
+13/12/2020 16:05:42 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:42 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:42 Данные полученные с базы данных: техника
+13/12/2020 16:05:42 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:05:42 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:05:42 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:05:42 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:05:42 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:05:42 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:05:42 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:05:43 Данные полученные с клиента: getWarehousesCategory
+13/12/2020 16:05:43 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:05:43 Данные полученные с базы данных: qwddqwd
+13/12/2020 16:05:43 Данные полученные с базы данных: Мебель
+13/12/2020 16:05:43 Данные полученные с базы данных: Одежда
+13/12/2020 16:05:43 Данные полученные с базы данных: техника
+13/12/2020 16:06:16 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:06:16 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:06:16 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:06:35 Данные полученные с клиента: getUsers
+13/12/2020 16:06:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:06:35 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:06:35 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:06:35 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:06:35 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:06:35 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:06:35 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:06:35 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:06:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:06:35 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с клиента: getWarehouses
+13/12/2020 16:06:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:06:35 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:06:35 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:06:35 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:06:35 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:06:35 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:06:35 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:06:35 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:07:35 Данные полученные с клиента: getUsers
+13/12/2020 16:07:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:35 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:07:35 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:07:35 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:07:35 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:07:35 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:07:35 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:07:35 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:07:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:35 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с клиента: getWarehouses
+13/12/2020 16:07:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:35 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:07:35 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:07:35 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:07:35 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:07:35 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:07:35 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:07:35 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:07:44 Данные полученные с клиента: getUsers
+13/12/2020 16:07:44 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:44 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:07:44 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:07:44 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:07:44 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:07:44 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:07:44 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:07:44 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:07:44 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:44 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с клиента: getWarehouses
+13/12/2020 16:07:44 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:44 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:07:44 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:07:44 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:07:44 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:07:44 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:07:44 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:07:44 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:07:46 Данные полученные с клиента: getUsers
+13/12/2020 16:07:46 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:46 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:07:46 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:07:46 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:07:46 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:07:46 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:07:46 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:07:46 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:07:46 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:46 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с клиента: getWarehouses
+13/12/2020 16:07:46 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:46 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:07:46 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:07:46 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:07:46 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:07:46 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:07:46 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:07:46 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:07:48 Данные полученные с клиента: getUsers
+13/12/2020 16:07:48 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:48 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:07:48 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:07:48 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:07:48 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:07:48 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:07:48 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:07:48 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:07:48 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:48 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с клиента: getWarehouses
+13/12/2020 16:07:48 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:48 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:07:48 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:07:48 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:07:48 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:07:48 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:07:48 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:07:48 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:07:50 Данные полученные с клиента: getUsers
+13/12/2020 16:07:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:50 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:07:50 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:07:50 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:07:50 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:07:50 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:07:50 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:07:50 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:07:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:50 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с клиента: getWarehouses
+13/12/2020 16:07:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:50 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:07:50 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:07:50 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:07:50 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:07:50 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:07:50 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:07:50 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:07:52 Данные полученные с клиента: getUsers
+13/12/2020 16:07:52 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:52 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:07:52 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:07:52 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:07:52 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:07:52 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:07:52 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:07:52 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:07:52 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:52 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с клиента: getWarehouses
+13/12/2020 16:07:52 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:52 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:07:52 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:07:52 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:07:52 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:07:52 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:07:52 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:07:52 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:07:54 Данные полученные с клиента: getUsers
+13/12/2020 16:07:54 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:54 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:07:54 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:07:54 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:07:54 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:07:54 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:07:54 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:07:54 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:07:54 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:54 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с клиента: getWarehouses
+13/12/2020 16:07:54 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:07:54 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:07:54 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:07:54 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:07:54 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:07:54 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:07:54 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:07:54 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:08:05 Данные полученные с клиента: signUp
+13/12/2020 16:08:05 Регистрация пользователя
+13/12/2020 16:08:09 Данные полученные с клиента: cancel
+13/12/2020 16:08:18 Данные полученные с клиента: enter
+13/12/2020 16:08:18 Попытка входа в аккаунт
+13/12/2020 16:08:18 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 16:08:18 Вход выполнен успешно!
+13/12/2020 16:08:18 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 16:08:18 Клиент авторизировался как администратор
+13/12/2020 16:08:18 Данные полученные с клиента: getUsers
+13/12/2020 16:08:18 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:08:18 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:08:18 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:08:18 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:08:18 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:08:18 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:08:18 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:08:18 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:08:18 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:08:18 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с клиента: getWarehouses
+13/12/2020 16:08:18 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:08:18 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:08:18 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:08:18 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:08:18 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:08:18 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:08:18 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:08:18 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:08:25 Данные полученные с клиента: signUp
+13/12/2020 16:08:25 Регистрация пользователя
+13/12/2020 16:08:28 Данные полученные с клиента: cancel
+13/12/2020 16:08:39 Данные полученные с клиента: enter
+13/12/2020 16:08:39 Попытка входа в аккаунт
+13/12/2020 16:08:39 Данные полученные с клиента: Users{idUser=null, login='admin', password='12345d', role='null'}
+13/12/2020 16:08:39 Пользователь не зарегистрирован!
+13/12/2020 16:08:47 Данные полученные с клиента: enter
+13/12/2020 16:08:47 Попытка входа в аккаунт
+13/12/2020 16:08:47 Данные полученные с клиента: Users{idUser=null, login='admin', password='adnmin1', role='null'}
+13/12/2020 16:08:47 Пользователь не зарегистрирован!
+13/12/2020 16:08:52 Данные полученные с клиента: enter
+13/12/2020 16:08:52 Попытка входа в аккаунт
+13/12/2020 16:08:52 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 16:08:52 Вход выполнен успешно!
+13/12/2020 16:08:52 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 16:08:52 Клиент авторизировался как администратор
+13/12/2020 16:08:52 Данные полученные с клиента: getUsers
+13/12/2020 16:08:52 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:08:52 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:08:52 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:08:52 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:08:52 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:08:52 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:08:52 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:08:52 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:08:52 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:08:52 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с клиента: getWarehouses
+13/12/2020 16:08:52 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:08:52 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:08:52 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:08:52 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:08:52 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:08:52 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:08:52 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:08:52 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:08:56 Данные полученные с клиента: exitLogistAccount
+13/12/2020 16:08:56 Выход из аккаунта: admin
+13/12/2020 16:09:04 Данные полученные с клиента: enter
+13/12/2020 16:09:04 Попытка входа в аккаунт
+13/12/2020 16:09:04 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 16:09:04 Вход выполнен успешно!
+13/12/2020 16:09:04 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 16:09:04 Клиент авторизировался как администратор
+13/12/2020 16:09:04 Данные полученные с клиента: getUsers
+13/12/2020 16:09:04 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:04 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:09:04 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:09:04 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:09:04 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:09:04 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:09:04 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:09:04 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:09:04 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:04 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с клиента: getWarehouses
+13/12/2020 16:09:04 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:04 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:09:04 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:09:04 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:09:04 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:09:04 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:09:04 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:09:04 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:09:45 Данные полученные с клиента: getUsers
+13/12/2020 16:09:45 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:45 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:09:45 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:09:45 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:09:45 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:09:45 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:09:45 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:09:45 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:09:45 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:45 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с клиента: getWarehouses
+13/12/2020 16:09:45 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:45 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:09:45 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:09:45 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:09:45 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:09:45 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:09:45 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:09:45 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:09:48 Данные полученные с клиента: updateUsers
+13/12/2020 16:09:48 Считывание измененных дынных о пользователях с клиента!
+13/12/2020 16:09:49 Данные полученные с клиента: getUsers
+13/12/2020 16:09:49 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:49 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:09:49 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Администратор'}
+13/12/2020 16:09:49 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:09:49 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:09:49 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:09:49 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:09:50 Данные полученные с клиента: getUsers
+13/12/2020 16:09:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:50 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:09:50 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Администратор'}
+13/12/2020 16:09:50 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:09:50 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:09:50 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:09:50 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:09:50 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:09:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:50 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с клиента: getWarehouses
+13/12/2020 16:09:50 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:50 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:09:50 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:09:50 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:09:50 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:09:50 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:09:50 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:09:50 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:09:55 Данные полученные с клиента: getUsers
+13/12/2020 16:09:55 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:55 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:09:55 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Администратор'}
+13/12/2020 16:09:55 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:09:55 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:09:55 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:09:55 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:09:55 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:09:55 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:55 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с клиента: getWarehouses
+13/12/2020 16:09:55 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:55 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:09:55 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:09:55 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:09:55 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:09:55 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:09:55 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:09:55 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:09:58 Данные полученные с клиента: updateUsers
+13/12/2020 16:09:58 Считывание измененных дынных о пользователях с клиента!
+13/12/2020 16:09:58 Данные полученные с клиента: getUsers
+13/12/2020 16:09:58 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:09:58 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:09:58 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:09:58 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:09:58 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:09:58 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:09:58 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:10:53 Данные полученные с клиента: getUsers
+13/12/2020 16:10:53 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:10:53 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:10:53 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:10:53 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:10:53 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:10:53 Данные полученные с базы данных: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:10:53 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:00 Данные полученные с клиента: deleteUser
+13/12/2020 16:11:00 Удаление пользователя!
+13/12/2020 16:11:00 Данные полученные с клиента: Users{idUser=5, login='wefwef', password='dwqdqw8', role='Логист'}
+13/12/2020 16:11:01 Данные полученные с клиента: getUsers
+13/12/2020 16:11:01 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:01 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:01 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:01 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:01 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:01 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:03 Данные полученные с клиента: updateUsers
+13/12/2020 16:11:03 Считывание измененных дынных о пользователях с клиента!
+13/12/2020 16:11:03 Данные полученные с клиента: getUsers
+13/12/2020 16:11:03 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:03 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:03 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:03 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:03 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:03 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:18 Данные полученные с клиента: getUsers
+13/12/2020 16:11:18 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:18 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:18 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:18 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:18 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:18 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:18 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:18 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:18 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:18 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:18 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:18 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:18 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:18 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:18 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:18 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:18 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с клиента: getUsers
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:19 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с клиента: getUsers
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:19 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с клиента: getUsers
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:19 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с клиента: getUsers
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:19 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с клиента: getUsers
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:19 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с клиента: getUsers
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:19 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:19 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:19 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:19 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:19 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:19 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:30 Данные полученные с клиента: getUsers
+13/12/2020 16:11:30 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:30 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:30 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:30 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:30 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:30 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:30 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:30 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:30 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:30 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:30 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:30 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:30 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:30 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:30 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:30 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:30 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:31 Данные полученные с клиента: getUsers
+13/12/2020 16:11:31 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:31 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:31 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:31 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:31 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:31 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:31 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:31 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:31 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:31 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:31 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:31 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:31 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:31 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:31 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:31 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:31 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:33 Данные полученные с клиента: getUsers
+13/12/2020 16:11:33 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:33 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:33 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:33 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:33 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:33 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:33 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:33 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:33 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:33 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:33 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:33 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:33 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:33 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:33 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:33 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:33 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:35 Данные полученные с клиента: getUsers
+13/12/2020 16:11:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:35 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:11:35 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:11:35 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:11:35 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:11:35 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:11:35 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:11:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:35 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:35 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:35 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:35 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:35 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:35 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:35 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:11:35 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:11:35 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 16:11:36 Данные полученные с клиента: getWarehouses
+13/12/2020 16:11:36 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:11:36 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:11:36 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:11:36 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:11:36 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:11:53 Клиент отключен.
+13/12/2020 16:11:54 Клиент отключен.
+13/12/2020 16:11:55 Клиент отключен.
+13/12/2020 16:11:58 Клиент подключается к серверу!
+13/12/2020 16:12:03 Данные полученные с клиента: enter
+13/12/2020 16:12:03 Попытка входа в аккаунт
+13/12/2020 16:12:03 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 16:12:03 Вход выполнен успешно!
+13/12/2020 16:12:03 Данные полученные с клиента: Users{idUser=null, login='admin', password='admin1', role='null'}
+13/12/2020 16:12:03 Клиент авторизировался как администратор
+13/12/2020 16:12:03 Данные полученные с клиента: getUsers
+13/12/2020 16:12:03 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:12:03 Данные полученные с базы данных: Users{idUser=1, login='admin', password='admin1', role='Администратор'}
+13/12/2020 16:12:03 Данные полученные с базы данных: Users{idUser=2, login='seryoga', password='1010aa', role='Логист'}
+13/12/2020 16:12:03 Данные полученные с базы данных: Users{idUser=3, login='sasha', password='12345d', role='Компания'}
+13/12/2020 16:12:03 Данные полученные с базы данных: Users{idUser=4, login='kirill', password='12345d', role='Компания'}
+13/12/2020 16:12:03 Данные полученные с базы данных: Users{idUser=7, login='vadim', password='12345d', role='Компания'}
+13/12/2020 16:12:03 Данные полученные с клиента: getCompaniesTableData
+13/12/2020 16:12:03 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:12:03 Данные полученные с базы данных: Companies{login='kirill', name='wefewfwe', category='Одежда', email='dqwdqwd4@qwdwq.dqd', phoneNumber='+375295554477', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: Companies{login='sasha', name='dqdsada', category='техника', email='dqwdqwd@dwqd.wqd', phoneNumber='+375296665544', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: Companies{login='vadim', name='dqwdqwdq', category='Мебель', email='dqwdsads@dqwdqwd.dwq', phoneNumber='+375295547755', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с клиента: getWarehouses
+13/12/2020 16:12:03 Считывание и отправка дынных о компаниях на клиент!
+13/12/2020 16:12:03 Данные полученные с базы данных: Warehouse{warehouseCategory='Мебель', currentAmount=444, capacity=1000}
+13/12/2020 16:12:03 Данные полученные с базы данных: Warehouse{warehouseCategory='Одежда', currentAmount=237, capacity=2000}
+13/12/2020 16:12:03 Данные полученные с базы данных: Warehouse{warehouseCategory='техника', currentAmount=511, capacity=10000}
+13/12/2020 16:12:03 Данные полученные с базы данных: Warehouse{warehouseCategory='qwddqwd', currentAmount=0, capacity=2222}
+13/12/2020 16:12:03 Данные полученные с клиента: getRequestTableData
+13/12/2020 16:12:03 Считывание и отправка дынных о запросах на клиент!
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=12, login='vadim', category='Мебель', productName='stol', productQuantity=44, defect='10.21', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=13, login='kirill', category='Одежда', productName='свитер', productQuantity=200, defect='15.42', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=14, login='kirill', category='Одежда', productName='носки', productQuantity=37, defect='10.31', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=15, login='sasha', category='техника', productName='dfghj', productQuantity=500, defect='2.78', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=16, login='sasha', category='техника', productName='uuytrfyghuj', productQuantity=500, defect='16.24', status='Отказано'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=17, login='sasha', category='техника', productName='ytrfghj', productQuantity=11, defect='11.89', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=18, login='vadim', category='Мебель', productName='Шкаф', productQuantity=209, defect='12.24', status='В обработке'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=19, login='vadim', category='Мебель', productName='Зеркало', productQuantity=345, defect='2.39', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=20, login='vadim', category='Мебель', productName='ytrdfyui', productQuantity=55, defect='7.38', status='Одобрен'}
+13/12/2020 16:12:03 Данные полученные с базы данных: ProductRequest{idRequest=21, login='vadim', category='Мебель', productName='qwdqwdqwd', productQuantity=222, defect='5.79', status='В обработке'}
+13/12/2020 17:15:27 Данные полученные с клиента: exitLogistAccount
+13/12/2020 17:15:27 Выход из аккаунта: admin
+13/12/2020 17:15:28 Клиент отключен.
